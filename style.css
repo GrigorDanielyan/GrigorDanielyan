@@ -1,1 +1,264 @@
-@font-face{font-family:BOYCOTT;src:url(assets/BOYCOTT.ttf)}body{padding:0;margin:0;border:0}*{color:#f8f8f8;user-select:none}.uss{user-select:text}p{margin:0}.bg-gradient{background:linear-gradient(125deg,#258457,#37c5bb,#6769ae);background-size:600% 600%;animation:AnimationName 30s ease infinite;width:100%;height:100%;top:0;left:0;position:fixed;z-index:-1}@keyframes AnimationName{0%{background-position:0 51%}50%{background-position:100% 50%}100%{background-position:0 51%}}.ul-style-z{list-style:none;padding:0}.language-menu{margin:10px;right:0;position:absolute;z-index:3}.language-menu li{display:inline-block;padding:5px;margin:0 5px;transition:all .25s;color:#ffffff80}.language-menu li p{padding:0;margin:0;color:#ffffff80}.language-menu li:hover{cursor:pointer;transition:all .25s;text-shadow:0 0 1px #fff}.a-dec-none,.nav-menu .ul-style-z li a{text-decoration:none}.nav-menu{display:flex;justify-content:center;align-items:center;height:100vh}.menu{list-style:none;padding:0;margin:0}.menu li{display:block;margin:10px;padding:10px;text-align:center}.menu li a{text-decoration:none;color:#fff;text-transform:uppercase;font-family:BOYCOTT,sans-serif;font-size:48px}.container{display:flex;padding:5%;width:-webkit-fill-available;position:absolute;top:0;left:0}.left-column{width:70%;padding:20px}.right-column{width:30%;max-width:600px;padding:20px}.left-column h1,.right-column h1{margin-top:0}.left-column p{margin-bottom:10px;font-size:larger}.page-menu-iteam{display:flex;flex-direction:row;justify-content:space-evenly;text-transform:uppercase}.menu-button{margin-left:15px}.page-icons-x1{display:flex;justify-content:center;height:100%;flex-direction:column;flex-wrap:nowrap}.page-icons-x1 .obj{margin:20px}.page-icons-x3,.page-icons-x4,.page-link{display:flex;flex-wrap:wrap;justify-content:space-evenly}.page-icons-x3 .obj{width:calc(100% / 3)}.page-icons-x4 .obj{width:calc(100% / 4)}.page-link .obj{width:calc(100% / 2)}.page-link .obj{text-align:center}object{margin:15px}.qr-link object{margin:20px}.mb{width:30px}.mb object{margin:auto}.nav-menu{position:absolute;width:-webkit-fill-available;z-index:2}.container{z-index:1}.container,.nav-menu{animation:fadeInElem 1s ease-in-out forwards}@keyframes fadeInElem{0%{opacity:0}50%{opacity:0}100%{opacity:1}}.dnone{animation:fadeOutElem 1s ease-in-out forwards}@keyframes fadeOutElem{0%{opacity:1}50%{opacity:0}100%{opacity:0;display:none}}
+@font-face {
+    font-family: BOYCOTT;
+    src: url(assets/BOYCOTT.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+* {
+    color: #f8f8f8;
+    user-select: none;
+}
+
+.uss {
+    user-select: text;
+}
+
+p {
+    margin: 0;
+}
+
+.bg-gradient {
+    background: linear-gradient(125deg, #258457, #37c5bb, #6769ae);
+    background-size: 600% 600%;
+    animation: AnimationName 30s ease infinite;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 51%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 51%
+    }
+}
+
+.ul-style-z {
+    list-style: none;
+    padding: 0;
+}
+
+.language-menu {
+    margin: 10px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 3;
+}
+
+.language-menu li {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    transition: all .25s;
+    color: #ffffff80;
+}
+
+.language-menu li p {
+    padding: 0;
+    margin: 0;
+    color: #ffffff80;
+}
+
+.language-menu li:hover {
+    cursor: pointer;
+    transition: all .25s;
+    text-shadow: 0 0 1px white;
+}
+
+.nav-menu .ul-style-z li a,
+.a-dec-none {
+    text-decoration: none;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu li {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: BOYCOTT, sans-serif;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    padding: 5%;
+    width: -webkit-fill-available;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left-column {
+    width: 70%;
+    padding: 20px;
+}
+
+.right-column {
+    width: 30%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.left-column h1,
+.right-column h1 {
+    margin-top: 0;
+}
+
+.left-column p {
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.page-menu-iteam {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.menu-button {
+    margin-left: 15px;
+}
+
+.page-icons-x1 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.page-icons-x1 .obj {
+    margin: 20px;
+}
+
+.page-icons-x3,
+.page-icons-x4,
+.page-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.page-icons-x3 .obj {
+    width: calc(100% / 3);
+    align-content: center;
+}
+
+.page-icons-x4 .obj {
+    width: calc(100% / 4);
+    align-content: center;
+}
+
+.page-link .obj {
+    width: calc(100% / 2);
+    align-content: center;
+}
+
+.page-link .obj {
+    text-align: center;
+}
+
+object {
+    margin: 15px;
+}
+
+.qr-link object {
+    margin: 20px;
+}
+
+.mb {
+    width: 30px;
+    padding-left: 5px;
+}
+
+.mb object {
+    margin: auto;
+}
+
+.nav-menu {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: -webkit-fill-available;
+    z-index: 2;
+}
+
+.container {
+    z-index: 1;
+}
+
+.nav-menu,
+.container {
+    animation: fadeInElem 1s ease-in-out forwards;
+}
+
+@keyframes fadeInElem {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dnone {
+    animation: fadeOutElem 1s ease-in-out forwards;
+}
+
+@keyframes fadeOutElem {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
