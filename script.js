@@ -13,10 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   if (isMobile()) {
-    //     document.getElementById("splash").innerHTML = `<div class="bg-gradient"></div>
-    // <h3>The mobile version of the site will be ready soon!</h3>
-    // <p>Please log in from a computer to explore the site.</p>`;
-
     const link = document.createElement('link');
     link.rel = 'stylesheet';
     link.href = './style-android.css';
@@ -24,10 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
     main();
   }
   else if (isIos()) {
-    main();
-    //     document.getElementById("splash").innerHTML = `<div class="bg-gradient"></div>
-    // <h3>The IOS version of the site will be ready soon!</h3>
-    // <p>Please log in from a computer to explore the site.</p>`;
+    document.getElementById("splash").innerHTML = `<div class="bg-gradient"></div>
+    <h1>The IOS version of the site will be ready soon!</h1>
+    <p>Please log in from a computer to explore the site.</p>`;
   }
   else {
     main();
