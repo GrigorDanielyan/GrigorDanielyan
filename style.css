@@ -84,6 +84,7 @@ p {
 .nav-menu .ul-style-z li a,
 .a-dec-none {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .nav-menu {

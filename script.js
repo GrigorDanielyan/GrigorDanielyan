@@ -166,13 +166,12 @@ async function main() {
     title: 'Constacts',
   });
 
-
   await wait(500)
   splash.classList.add('hidden');
   await wait(500)
   body.classList.remove('visible-hidden');
   loadEvents();
-  document.querySelector("#about_me").click();
+  document.getElementById("splash").style = "display: none;";
 }
 
 function genWind(obj) {
@@ -190,7 +189,7 @@ function genWind(obj) {
 
   const rightColumnLink = document.createElement('a');
   rightColumnLink.classList.add('tonav', 'a-dec-none');
-  rightColumnLink.href = '#home';
+  rightColumnLink.setAttribute('data-id', '#home');
 
   const rightColumnTitle = document.createElement('h1');
   rightColumnTitle.classList.add('page-menu-iteam');
