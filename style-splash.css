@@ -25,7 +25,7 @@
 }
 
 #splash.hidden {
-    animation: fadeOut 1s ease-in-out forwards 0.01s;
+    animation: fadeOut 1s ease-in-out forwards;
 }
 
 @keyframes fadeOut {
@@ -36,5 +36,6 @@
     to {
         opacity: 0;
         display: none;
+        visibility: hidden;
     }
 }
