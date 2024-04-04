@@ -332,7 +332,7 @@ async function genWind(obj) {
   document.querySelector('.nav-menu .menu').appendChild(pageTitleContainer);
 
   const container = document.createElement('div');
-  container.classList.add('dnone', 'menu-item', 'container');
+  container.classList.add('dnone', 'menu-item', 'container', 'hz');
   container.id = obj.id;
 
   const leftColumn = document.createElement('div');
