@@ -17,8 +17,20 @@ p {
     margin: 0;
 }
 
+.bg-gradient-loading {
+    background: linear-gradient(125deg, #258457, #267781, #5b5eb1);
+    background-size: 600% 600%;
+    animation: AnimationName 30s ease infinite;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
+}
+
 .bg-gradient {
-    background: linear-gradient(125deg, #258457, #37c5bb, #6769ae);
+    background: linear-gradient(125deg, #2cc245, #2cc295, #2c70c2);
     background-size: 600% 600%;
     animation: AnimationName 30s ease infinite;
     width: 100vw;
